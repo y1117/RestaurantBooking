@@ -134,8 +134,12 @@
     <ClCompile Include="Schedule.cpp" />
     <ClCompile Include="SmsSender.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="TestableMailSender.cpp" />
+    <ClCompile Include="TestableSmsSender.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\.editorconfig" />
+    <None Include=".gitignore" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
